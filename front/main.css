@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* font-family: 'Hurricane', cursive; */
+	padding: 0;
+    margin: 0;
+  }
+header {
+    padding: 2em;
+}  
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-left-side, .nav-right-side {
+    display: flex;
+    
+}
